@@ -35,8 +35,7 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#100e23",
-          "background": "#ffffff",
-          "template": "{{ if .SSHSession }}\uf817 <#5232ed>{{ .UserName }}@{{ .HostName }}</>AAAAA{{ else }}{{ .UserName }}@{{ .HostName }}{{end}}"
+          "background": "#ffffff"
         },
         {
           "type": "path",
