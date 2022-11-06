@@ -1,124 +1,121 @@
 {
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
+  {
+    "alignment": "left",
+    "segments": [
     {
-      "alignment": "left",
-      "segments": [
-        {
-          "type": "os",
-          "style": "diamond",
-          "leading_diamond": "╭",
-          "foreground": "#100e23",
-          "background": "#ffe9aa",
-          "properties":
-          {
-            "macos": "mac",
-            "windows": "",
-            "ubuntu": "",
-            "wsl": "",
-            "wsl_separator": "  "
-          }
-        },
-        {
-          "type": "root",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#100e23",
-          "background": "#80DD3A",
-          "properties":
-          {
-            "postfix": "⠀",
-            "root_icon": "聯"
-          }
-        },
-        {
-          "type": "session",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#100e23",
-          "background": "#ffffff"
-        },
-        {
-          "type": "path",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#100e23",
-          "background": "#91ddff",
-          "mapped_locations_enables": true,
-          "mapped_locations":
-          {
-            "B:\\School": "拾",
-            "B:\\Programming": "",
-            "/home/bqk0705/dev/binary-piranha": "",
-            "/home/bqk0705/dev/iris": "",
-            "/home/bqk0705/dev/rose": ""
-          },
-          "properties":
-          {
-            "prefix": "   ",
-            "folder_icon": "",
-            "folder_separator_icon": "/",
-            "style": "full"
-          }
-        },
-        {
-          "type": "git",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#193549",
-          "background": "#95ffa4"
-        },
-        {
-          "type": "python",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#100e23",
-          "background": "#906cff",
-          "properties":
-          {
-            "prefix": "  "
-          }
-        },
-        {
-          "type": "exit",
-          "style": "powerline",
-          "powerline_symbol": "",
-          "foreground": "#ffffff",
-          "background": "#ff8080",
-          "properties":
-          {
-            "prefix": " "
-          }
-        }
-      ],
-      "type": "prompt"
+      "type": "os",
+      "style": "diamond",
+      "leading_diamond": "╭",
+      "foreground": "#1e1f1c",
+      "background": "#7a7b75",
+      "properties":
+      {
+        "macos": "mac",
+        "windows": "",
+        "ubuntu": "",
+        "wsl": "",
+        "wsl_separator": "  "
+      }
     },
     {
-      "alignment": "left",
-      "newline": true,
-      "segments": [
+      "type": "root",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#1e1f1c",
+      "background": "#80DD3A",
+      "properties":
       {
-        "type": "text",
-        "foreground": "#ffe9aa",
-        "style": "plain",
-        "template": "╰─["
-      },
-      {
-        "type": "text",
-        "style": "plain",
-        "foreground": "#007ACC",
-        "template": "$"
-      },
-      {
-        "type": "text",
-        "style": "plain",
-        "foreground": "#ffe9aa",
-        "template": "]"
+        "postfix": "",
+        "root_icon": "聯"
       }
-    ],
-      "type": "prompt"
-    }
-  ],
+    },
+    {
+      "type": "session",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#1e1f1c",
+      "background": "#cccccc"
+    },
+    {
+      "type": "path",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#1e1f1c",
+      "background": "#E6DB74",
+      "mapped_locations_enables": true,
+      "mapped_locations":
+      {
+        "B:\\School": "拾",
+        "B:\\Programming": "",
+        "/home/bqk0705/dev/binary-piranha": "",
+        "/home/bqk0705/dev/iris": "",
+        "/home/bqk0705/dev/rose": ""
+      },
+      "properties":
+      {
+        "prefix": "   ",
+        "folder_icon": "",
+        "folder_separator_icon": "/",
+        "style": "full"
+      }
+    },
+    {
+      "type": "git",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#1e1f1c",
+      "background": "#FD971F"
+    },
+    {
+      "type": "python",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#1e1f1c",
+      "background": "#AE81FF",
+      "properties":
+      {
+        "prefix": "  "
+      }
+    },
+    {
+      "type": "exit",
+      "style": "powerline",
+      "powerline_symbol": "",
+      "foreground": "#ffffff",
+      "background": "#F92672",
+      "properties":
+      {
+        "prefix": " "
+      }
+    }],
+    "type": "prompt"
+  },
+  {
+    "alignment": "left",
+    "newline": true,
+    "segments": [
+    {
+      "type": "text",
+      "foreground": "#7a7b75",
+      "style": "plain",
+      "template": "╰─["
+    },
+    {
+      "type": "text",
+      "style": "plain",
+      "foreground": "#FD971F",
+      "template": "$"
+    },
+    {
+      "type": "text",
+      "style": "plain",
+      "foreground": "#7a7b75",
+      "template": "]"
+    }],
+    "type": "prompt"
+  }],
   "final_space": true,
   "version": 2
 }
